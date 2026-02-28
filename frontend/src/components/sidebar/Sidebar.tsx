@@ -59,7 +59,7 @@ const Sidebar = () => {
             lineHeight: 1.2,
           }}
         >
-          Int20H
+          Instant Wellness Kits
         </Typography>
       </Box>
 

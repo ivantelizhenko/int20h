@@ -6,7 +6,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig(({ mode }) => {
   // const env = loadEnv(mode, process.cwd(), '');
-  const apiUrl = 'https://bettermebackend.onrender.com';
+  const apiUrl = 'https://int20h-bm85.onrender.com/';
   const isProd = mode === 'production';
 
   return {

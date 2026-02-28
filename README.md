@@ -29,13 +29,13 @@ Open your code editor -> Open Terminal -> Clone this repository to your computer
 ### First Step
 Move to the frontend directory and install the dependencies:
 ```bash
-    cd frontend
+    cd int20h/frontend
     npm install
 ```
 ### Second Step
 Copy env-example structure for your .env file:
 ```bash
-    cp .env-example .env
+    cp .env.example .env
 ```
 ### Third Step
 Run your frontend application:
@@ -64,7 +64,7 @@ Open your code editor -> Open Terminal -> Clone this repository to your computer
 ### First Step
 Move to the backend directory and install the dependencies for your backend application:
 ```bash
-    cd backend
+    cd int20h/backend
     npm i
 ```
 ### Second Step
@@ -120,4 +120,5 @@ https://int20h-bm85.onrender.com/api/orders
 
 **IMPORT CSV FILE WITH ORDERS (POST)**
 <br>
+
 https://int20h-bm85.onrender.com/api/orders/import

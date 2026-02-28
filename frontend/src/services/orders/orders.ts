@@ -21,7 +21,7 @@ export const getOrders = async ({
       }
     });
 
-    const url = `${import.meta.env.VITE_API_URL}/orders?${params}`;
+    const url = `api/orders?${params}`;
 
     const response = await fetch(url, {
       method: 'GET',
@@ -40,7 +40,7 @@ export const addOrder = async (
   postData: AddOrderParams,
 ): Promise<GetOrdersResponse> => {
   try {
-    const url = `${import.meta.env.VITE_API_URL}/orders`;
+    const url = `api/orders`;
 
     const response = await fetch(url, {
       method: 'POST',
@@ -60,7 +60,7 @@ export const importOrders = async (
   file: File,
 ): Promise<{ message: string }> => {
   try {
-    const url = `${import.meta.env.VITE_API_URL}/orders/import`;
+    const url = `api/orders/import`;
 
     const formData = new FormData();
     formData.append('file', file);

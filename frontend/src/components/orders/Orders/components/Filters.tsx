@@ -97,6 +97,10 @@ const Filters = () => {
         '&:before': {
           display: 'none',
         },
+        '&.Mui-expanded': {
+          mt: 0,
+          mb: 3,
+        },
       }}
     >
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
